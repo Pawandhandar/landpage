@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help & Support</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tech Startup</h1>
+       
+    </header>
+
+    <main>
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>What services do you offer?</h3>
+                <p>We offer a variety of services including [list your services, e.g., web development, graphic design, digital marketing, etc.]. For a full list, please visit our services page.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How can I create an account?</h3>
+                <p>To create an account, click on the "Sign Up" button on our homepage. Fill in the required information, and you'll receive a confirmation email to activate your account.</p>
+            </div>
+            <!-- Add more FAQs as needed -->
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tech Startup. All rights reserved.</p>
+    </footer>
+</body>
+</html>

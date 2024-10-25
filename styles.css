@@ -1,0 +1,238 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+}
+
+.team img {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+.mission-vision {
+    background-color: #f7f7f7;
+    padding: 50px;
+}
+
+.contact {
+    background-color: #f0f0f0;
+    padding: 50px;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.login-section {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.contact-section {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+.contact-info {
+    padding: 30px 0;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+}   
+body {
+    font-family: Arial, sans-serif;
+}
+
+.features-section {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+.feature-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.feature-card:hover {
+    transform: scale(1.05);
+}
+
+.cta-section {
+    padding: 30px 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.privacy-policy-section {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.blog-post-section {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+.sidebar-section {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.careers-section {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+.culture-section {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+.job-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.job-item:hover {
+    background-color: #f7f7f7;
+    cursor: pointer;
+}body {
+    font-family: Arial, sans-serif;
+}
+
+.faq-section {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+    padding: 20px;
+}
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+main {
+    padding: 20px;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 5px 0;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}

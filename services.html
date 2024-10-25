@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Tech Startup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: #f7f7f7;
+            font-family: Roboto, sans-serif;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .nav ul {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav li {
+            margin: 0 20px;
+        }
+
+        .nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .nav a:hover {
+            color: #ccc;
+        }
+
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        .service {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            width: calc(33.33% - 40px);
+        }
+
+        .service h3 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .service p {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+
+        /* Media Queries */
+
+        @media (max-width: 1200px) {
+            .nav {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .nav li {
+                margin: 10px 0;
+            }
+
+            .services {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .service {
+                width: 80%;
+                margin: 20px 0;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .nav li {
+                margin: 5px 0;
+            }
+
+            .services {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .service {
+                width: 90%;
+                margin: 10px 0;
+            }
+        }
+
+        @media ( max-width: 480px) {
+            .nav {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .nav li {
+                margin: 2px 0;
+            }
+
+            .services {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .service {
+                width: 95%;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Services - Tech Startup</h1>
+    </header>
+    <nav class="nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="services">
+        <div class="service">
+            <h3>Web development and design</h3>
+            <p>Designing a product is designing a relationship.</p>
+        </div>
+        <div class="service">
+            <h3>Mobile app development</h3>
+            <p>In mobile app development, simplicity is key; the more intuitive, the better.</p>
+        </div>
+        <div class="service">
+            <h3>E-commerce solutions</h3>
+            <p>To succeed in e-commerce, you need to think like a customer.</p>
+        </div>
+    </section>
+</body>
+</html>
